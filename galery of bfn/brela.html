@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery of BFN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=REM:wght@100;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="brela.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero"></div>
+        <div class="features feature-1">
+          <h4>Our social media</h4>
+          <div class="icons">
+            <a href="https://www.instagram.com/brelannd_/"><i class="ri-instagram-fill"></i></a>
+            <a href="https://www.tiktok.com/@brelaa_"><i class="ri-tiktok-fill"></i></a>
+          </div>
+        </div>
+        <div class="features feature-2">
+          <h4>Draw</h4>
+          <button><a href="">See more</a></button>
+        </div>
+        <div class="features feature-3">
+          <h1 class="tag-line">Brelanda</h1>
+          <h1 class="tag-line">Fatimah</h1>
+          <h1 class="tag-line">Noer</h1>
+        </div>
+        <div class="features feature-4">
+          <button><a href="#gallery">See gallery</a></button>
+        </div>
+        <div class="features feature-5">
+          <h4>2024 | 1363</h4>
+        </div>
+      </header>
+
+      <!-- Nav -->
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+        <h1>BFN</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Tour</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <img src="img/ilysmb.jpg">
+          <h3></h3>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <img src="img/ilysmb.jpg">
+          <h3></h3>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <img src="img/ilysmb.jpg">
+          <h3></h3>
+          <button><a href="#">See more</a></button>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <img src="img/ilysmb.jpg">
+          <h3></h3>
+          <button><a href="#">See more</a></button>
+        </div>
+      </section>
+
+      <section class="history">
+        <div class="bg">
+          <h3>ALL ABOUT</h3>
+          <h3 class="tbi">BRELA</h3>
+          <button>
+            <a href=""><i class="ri-video-line"></i> Watch video</a>
+          </button>
+        </div>
+      </section>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
